@@ -78,8 +78,8 @@ timeline.fromTo(
   { y: "100%" },
   {
     y: "0%",
-    duration: 1,
-    stagger: 0.2,
+    duration: 2,
+    stagger: 0.4,
   }
 );
 
