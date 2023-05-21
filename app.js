@@ -1,3 +1,4 @@
+// source for testing https://www.youtube.com/watch?v=Yo3j_Dx4u7c&t=2687s 
 const parallaxElements = document.querySelectorAll(".parallax");
 
 let xValue = 0;
