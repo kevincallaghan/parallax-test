@@ -324,3 +324,35 @@ font-size: 15rem;
   left: 11%;
 }
 }
+
+@media (max-width: 400px) {
+  .text h1 {
+    font-size: 5rem;
+  }
+
+  .text h2 {
+    font-size: 3rem;
+  }
+
+
+  .plants-left {
+    position: absolute;
+    width: 300px;
+    top: calc(50% - 10%);
+    left: calc(50% - 64%);
+  }
+
+  .plants-front {
+    position: absolute;
+    width: 700px;
+    top: calc(75%);
+    left: calc(50% - 55%);
+  }
+
+  .text {
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+    left: 9%;
+  }
+}
