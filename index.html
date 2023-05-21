@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Test Page</title>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container-fluid px-0">
+
+    <!-- Navbar Start -->
+  <div class="text-white fs-4 custom-border custom-nav bg-transparent" style="padding:10px;"  id="topNav">
+    <div style="display: flex; justify-content: space-between; align-items: center; max-width:1200px; margin: 0 auto;">
+      <div id="welcome"  class="hiddenNav"><img src="assets/KEVIN.png" class="logo transparent-image"></div>
+      <div>
+        <a href="#" style="text-decoration:none; padding: 0 10px 0 10px;">Home</a>
+        <a href="" style="text-decoration:none; padding: 0 10px 0 10px;">About Me</a>
+        <a href="" style="text-decoration:none; padding: 0 10px 0 10px;">Contact</a>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Main START -->
+  <main>
+    <div class="vignette"></div>
+    <img src="assets/background.png" data-speedx="0.4" data-speedy="0.5" data-speedz="0" data-distance="200" class="parallax bg-img">
+    <img src="assets/fogLeft.png" data-speedx="0.4" data-speedy="0.45" data-speedz=".2" data-distance="300" class="parallax fog-left">
+    <img src="assets/fogRight.png" data-speedx="0.4" data-speedy="0.42" data-speedz=".2" data-distance="300" class="parallax fog-right">
+    <img src="assets/fogCenter.png" data-speedx="0.4" data-speedy="0.40" data-speedz=".2" data-distance="400" class="parallax fog-center">
+    <img src="assets/darkFog.png" data-speedx="0.390" data-speedy="0.29" data-speedz="0" data-distance="500" class="parallax dark-fog">
+    <div class="text parallax" data-speedx="0.28" data-speedy="0.27" data-distance="0">
+      <h1 class="text-white">PARALLAX</h1>
+      <h2 class="text-white">TEST</h2>
+    </div>
+    <img src="assets/plantsLeft.png" data-speedx="0.25" data-speedy="0.25" data-speedz=".15" data-distance="900" class="parallax plants-left">
+    <img src="assets/plantsFront.png" data-speedx="0.2" data-speedy="0.19" data-speedz=".15" data-distance="1100" class="parallax plants-front">
+    <img src="assets/fogFront.png" data-speedx="0.1" data-speedy="0.15" data-speedz="0" data-distance="1200" class="parallax fog-front">
+  </main>
+  <!-- Main END -->
+
+  </div>
+
+<!-- Greensock CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<!-- My Javascript -->
+<script src="app.js"></script>
+
+</body>
+</html>
